@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ✅ Tiêu đề trang -->
+  <title>Tiêu đề bài viết - Tên website</title>
+
+  <!-- ✅ Thẻ mô tả meta -->
+  <meta name="description" content="Mô tả ngắn gọn chứa từ khóa chính, độ dài ~150 ký tự.">
+
+  <!-- ✅ Thẻ từ khóa (không còn quan trọng nhưng có thể thêm) -->
+  <meta name="keywords" content="từ khóa 1, từ khóa 2, từ khóa phụ">
+
+  <!-- ✅ Thẻ Open Graph (cho Facebook, Zalo...) -->
+  <meta property="og:title" content="Tiêu đề bài viết">
+  <meta property="og:description" content="Mô tả bài viết">
+  <meta property="og:image" content="https://example.com/image.jpg">
+  <meta property="og:url" content="https://example.com/bai-viet">
+  <meta property="og:type" content="article">
+
+  <!-- ✅ Thẻ Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tiêu đề bài viết">
+  <meta name="twitter:description" content="Mô tả bài viết">
+  <meta name="twitter:image" content="https://example.com/image.jpg">
+
+  <!-- ✅ Structured Data (Schema Article JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tiêu đề bài viết",
+    "image": "https://example.com/image.jpg",
+    "author": {
+      "@type": "Person",
+      "name": "Tên tác giả"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tên website",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://example.com/logo.png"
+      }
+    },
+    "datePublished": "2025-07-18",
+    "dateModified": "2025-07-18"
+  }
+  </script>
+</head>
+
+<body>
+  <header>
+    <!-- Logo, thanh điều hướng -->
+  </header>
+
+  <main>
+    <article>
+      <!-- ✅ Tiêu đề chính -->
+      <h1>Tiêu đề bài viết chứa từ khóa chính</h1>
+
+      <!-- ✅ Thông tin tác giả và ngày -->
+      <div class="post-meta">
+        <span>Tác giả: <strong>Tên tác giả</strong></span> |
+        <time datetime="2025-07-18">18/07/2025</time>
+      </div>
+
+      <!-- ✅ Hình ảnh chính -->
+      <figure>
+        <img src="https://example.com/image.jpg" alt="Mô tả ảnh chứa từ khóa" />
+        <figcaption>Mô tả ảnh</figcaption>
+      </figure>
+
+      <!-- ✅ Nội dung chia đoạn rõ ràng -->
+      <section>
+        <h2>1. Mục đầu tiên chứa từ khóa phụ</h2>
+        <p>Đoạn văn giải thích, có chứa từ khóa phụ, liên kết nội bộ, liên kết ngoài nếu cần...</p>
+
+        <h3>1.1 Tiêu đề phụ cấp 3</h3>
+        <p>Đoạn văn...</p>
+
+        <h2>2. Mục tiếp theo</h2>
+        <ul>
+          <li>Gạch đầu dòng có thể dùng để liệt kê.</li>
+          <li>Có thể dùng thêm <strong>in đậm</strong>, <em>in nghiêng</em>.</li>
+        </ul>
+
+        <h2>Kết luận</h2>
+        <p>Tóm tắt lại vấn đề, khuyến khích người đọc hành động hoặc chia sẻ bài viết.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <!-- Thông tin bản quyền, liên hệ -->
+  </footer>
+</body>
+
+</html>
