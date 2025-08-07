@@ -5,8 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- ✅ Tiêu đề trang -->
-  <title>Đồ gia dụng giá rẻ - sales365.vn</title>
+  <meta name="description" content="Đây là trang web mẫu để test SEO với các yếu tố tối ưu chuẩn SEO" />
+  
+  <meta name="keywords" content="test seo, html seo, dự án seo, tối ưu seo" />
+  
+  <meta name="author" content="Eric Duong" />
+
+  <!-- ✅ Tiêu đề trang: Quan trọng -->
+  <title>Trang chủ | Dự án Test SEO</title>
 
   <!-- ✅ Thẻ mô tả meta -->
   <meta name="description" content="Cửa hàng đồ gia dụng chính hãng, giá tốt. Miễn phí vận chuyển toàn quốc. Đổi trả dễ dàng trong 7 ngày.">
@@ -26,6 +32,15 @@
   <meta name="twitter:title" content="Tiêu đề bài viết">
   <meta name="twitter:description" content="Mô tả bài viết">
   <meta name="twitter:image" content="https://example.com/image.jpg">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://yourdomain.com" />
+    
+  <!-- Favicon -->
+  <link rel="icon" href="images/logo.png" type="image/png">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- ✅ Structured Data (Schema Article JSON-LD) -->
   <script type="application/ld+json">
@@ -54,27 +69,36 @@
 
 <body>
   <header>
-    <!-- Logo, thanh điều hướng -->
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/logo.png" alt="Logo Dự án Test SEO" width="150">
+        </a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="pages/about.html">Giới thiệu</a></li>
+            <li><a href="pages/services.html">Dịch vụ</a></li>
+            <li><a href="pages/blogs/post1.html">Blog</a></li>
+            <li><a href="pages/contact.html">Liên hệ</a></li>
+        </ul>
+    </nav>
   </header>
 
-  <main>
+  <!-- <main>
     <article>
-      <!-- ✅ Tiêu đề chính -->
       <h1>Tiêu đề bài viết chứa từ khóa chính</h1>
 
-      <!-- ✅ Thông tin tác giả và ngày -->
       <div class="post-meta">
         <span>Tác giả: <strong>Tên tác giả</strong></span> |
         <time datetime="2025-07-18">18/07/2025</time>
       </div>
 
-      <!-- ✅ Hình ảnh chính -->
       <figure>
         <img src="https://example.com/image.jpg" alt="Mô tả ảnh chứa từ khóa" />
         <figcaption>Mô tả ảnh</figcaption>
       </figure>
 
-      <!-- ✅ Nội dung chia đoạn rõ ràng -->
       <section>
         <h2>1. Mục đầu tiên chứa từ khóa phụ</h2>
         <p>Đoạn văn giải thích, có chứa từ khóa phụ, liên kết nội bộ, liên kết ngoài nếu cần...</p>
@@ -92,10 +116,38 @@
         <p>Tóm tắt lại vấn đề, khuyến khích người đọc hành động hoặc chia sẻ bài viết.</p>
       </section>
     </article>
+  </main> -->
+
+  <main>
+    <section class="hero">
+        <h1>Chào mừng đến với Dự án Test SEO</h1>
+        <p>Đây là trang web mẫu được thiết kế để kiểm tra và tối ưu các yếu tố SEO cơ bản.</p>
+        <img src="images/banner.jpg" alt="Banner giới thiệu dự án test SEO" width="100%">
+    </section>
+    
+    <section class="features">
+        <h2>Các tính năng SEO được tích hợp</h2>
+        <div class="feature-item">
+            <h3>Cấu trúc HTML chuẩn</h3>
+            <p>Trang web sử dụng HTML5 semantic tags như header, nav, section, footer.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Thẻ meta tối ưu</h3>
+            <p>Đầy đủ các thẻ meta description, keywords, viewport, author.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Heading hợp lý</h3>
+            <p>Sử dụng các thẻ heading từ h1 đến h3 theo đúng thứ bậc.</p>
+        </div>
+    </section>
   </main>
 
   <footer>
-    <!-- Thông tin bản quyền, liên hệ -->
+    <p>&copy; 2023 Dự án Test SEO. All rights reserved.</p>
+    <ul>
+        <li><a href="pages/privacy.html">Chính sách bảo mật</a></li>
+        <li><a href="sitemap.xml">Sitemap</a></li>
+    </ul>
   </footer>
 </body>
 
