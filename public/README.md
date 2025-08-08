@@ -19,7 +19,7 @@ seo-tutorial/
 │   └── privacy.html        # Trang điều khoản
 ├── images/                 # Thư mục hình ảnh
 │   ├── logo.png            # Logo website
-│   └── banner.jpg          # Hình ảnh banner
+│   └── banner.png          # Hình ảnh banner
 └── css/
     └── style.css           # File CSS cơ bản
 ```
