@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://cellphones.com.vn/phu-kien/sac-dien-thoai/cap-chuyen-doi-dau-chuyen-doi-macbook.html#total_comment",
+  "url": "https://cellphones.com.vn/phu-kien/sac-dien-thoai/cap-chuyen-doi-dau-chuyen-doi-macbook.html",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Chính sách bảo hành khi mua hub Macbook tại CellphoneS?",
+      "acceptedAnswer": [
+        {
+          "@type": "Answer",
+          "text": "&lt;div&gt;Tại CellphoneS có nhiều thương hiệu hub Macbook nổi tiếng như Ugreen, iWalk, Baseus ,... Với mỗi thương hiệu hub Macbook đến từ thương hiệu khác nhau sẽ có chính sách bảo hành riêng, thời gian bảo hành cũng đa dạng từ 12, 18 tháng.&amp;nbsp;&lt;/div&gt;"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "Tôi có thể thanh toán hub Macbook qua những hình thức nào?",
+      "acceptedAnswer": [
+        {
+          "@type": "Answer",
+          "text": "&lt;div&gt;Với hệ thống phương thức thanh toán đa dạng, khách hàng có thể thoải mái lựa chọn được hình thức phù hợp nhu cầu. Một số phương thức thanh toán phổ biến tại CellphoneS như sử dụng tiền mặt, thanh toán chuyển khoản hoặc cà thẻ, quét mã QR code hoặc thanh toán qua ví điện tử. &amp;nbsp;&lt;/div&gt;"
+        }
+      ]
+    }
+  ]
+}
